@@ -55,7 +55,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - '&tdEqualEuro'
+  - KP MINUS
   - $$mdi:pan-up$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -68,7 +68,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - '&tdPlusMinus'
+  - +
   - $$mdi:pan-left$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:pan-right$$
@@ -83,7 +83,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - '0'
+  - '&tdEqualEuro'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-down$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -92,7 +92,7 @@ layers:
   - PgUp
   - PgDn
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '0'
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
