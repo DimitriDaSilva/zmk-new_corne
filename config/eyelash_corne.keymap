@@ -178,10 +178,10 @@
         NUMBER_NAV {
             display-name = "NUMBER & NAV";
             bindings = <
-&none  &tdAsteriskSlash  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &tdEqualEuro                           &msc SCRL_UP                     &none   &none     &none     &none         &none            &none
-&none  &tdDotComma       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &tdPlusMinus           &msc SCRL_LEFT  &mkp LCLK       &msc SCRL_RIGHT  &none   &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT_ARROW  &none
-&none  &tdParenthesis    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &none                    &msc SCRL_DOWN                   &none   &kp HOME  &kp END   &kp PAGE_UP   &kp PAGE_DOWN    &none
-                                       &trans        &trans        &trans                                                                  &trans  &trans    &trans
+&none  &tdAsteriskSlash  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS                           &msc SCRL_UP                     &none   &none     &none     &none         &none            &none
+&none  &tdDotComma       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS               &msc SCRL_LEFT  &mkp LCLK       &msc SCRL_RIGHT  &none   &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT_ARROW  &none
+&none  &tdParenthesis    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &tdEqualEuro  &none                    &msc SCRL_DOWN                   &none   &kp HOME  &kp END   &kp PAGE_UP   &kp PAGE_DOWN    &none
+                                       &kp NUMBER_0  &trans        &trans                                                                  &trans  &trans    &trans
             >;
         };
 
