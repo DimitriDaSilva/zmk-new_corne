@@ -168,10 +168,10 @@
         ERGOL {
             display-name = "ERGOL";
             bindings = <
-&none      &kp Q         &kp W            &kp E                &kp R              &kp T                                  &mmv MOVE_UP                     &kp Y         &kp U               &kp I                 &kp O             &kp P                    &none
-&none      &HML LCTRL A  &HML LEFT_ALT S  &HML LEFT_COMMAND D  &HML LEFT_SHIFT F  &kp G                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H         &HMR RIGHT_SHIFT J  &HMR RIGHT_COMMAND K  &HMR RIGHT_ALT L  &HMR RIGHT_CONTROL SEMI  &none
-&kp LA(O)  &kp Z         &kp X            &kp C                &kp V              &kp B         &none                    &mmv MOVE_DOWN                   &kp N         &kp M               &kp COMMA             &kp DOT           &kp FSLH                 &kp LS(N)
-                                          &kp LEFT_SHIFT       &lt 1 SPACE        &mt CAPS TAB                                                            &lt 2 ESCAPE  &lt 1 ENTER         &morph_backspace
+&none      &kp Q         &kp W            &kp E                &kp R                 &kp T                                  &mmv MOVE_UP                     &kp Y         &kp U               &kp I                 &kp O             &kp P                    &none
+&none      &HML LCTRL A  &HML LEFT_ALT S  &HML LEFT_COMMAND D  &HML LEFT_SHIFT F     &kp G                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H         &HMR RIGHT_SHIFT J  &HMR RIGHT_COMMAND K  &HMR RIGHT_ALT L  &HMR RIGHT_CONTROL SEMI  &none
+&kp LA(O)  &kp Z         &kp X            &kp C                &kp V                 &kp B         &none                    &mmv MOVE_DOWN                   &kp N         &kp M               &kp COMMA             &kp DOT           &kp FSLH                 &kp LS(N)
+                                          &kp LC(LS(SPACE))    &mt LEFT_SHIFT SPACE  &mt CAPS TAB                                                            &lt 2 ESCAPE  &lt 1 ENTER         &morph_backspace
             >;
         };
 
